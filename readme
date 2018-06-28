@@ -1,1 +1,35 @@
 
+1.克隆项目到本地
+git clone 
+
+2.创建Django环境
+
+3.安装项目依赖
+
+使用了Django环境，确保激活并进入，在命令行进入项目所在的 blogproject 文件夹，运行如下命令：
+
+a.安装插件
+pip install 
+
+django
+Markdown
+Pygments
+pytz
+reverse
+
+b.迁移数据库
+
+python manage.py migrate
+
+c.创建后台管理员账户
+
+python manage.py createsuperuser
+
+d.运行开发服务器
+
+python manage.py runserver
+在浏览器输入：127.0.0.1:8000
+
+e.进入后台发布文章
+
+在浏览器输入：127.0.0.1:8000/admin
