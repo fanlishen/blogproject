@@ -1,6 +1,6 @@
 
 1.克隆项目到本地
-git clone 
+git clone https://github.com/fanlishen/blogproject.git
 
 2.创建Django环境
 
