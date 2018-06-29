@@ -8,28 +8,28 @@ git clone https://github.com/fanlishen/blogproject.git
 
 使用了Django环境，确保激活并进入，在命令行进入项目所在的 blogproject 文件夹，运行如下命令：
 
-a.安装插件
-pip install 
+	a.安装插件
+	pip install 
+				django
+				Markdown
+				Pygments
+				pytz
+				reverse
 
-django
-Markdown
-Pygments
-pytz
-reverse
+	b.迁移数据库
 
-b.迁移数据库
+	python manage.py migrate
 
-python manage.py migrate
+	c.创建后台管理员账户
 
-c.创建后台管理员账户
+	python manage.py createsuperuser
 
-python manage.py createsuperuser
+	d.运行开发服务器
 
-d.运行开发服务器
+	python manage.py runserver
 
-python manage.py runserver
-在浏览器输入：127.0.0.1:8000
+	在浏览器输入：127.0.0.1:8000
 
-e.进入后台发布文章
+	e.进入后台发布文章
 
-在浏览器输入：127.0.0.1:8000/admin
+	在浏览器输入：127.0.0.1:8000/admin
